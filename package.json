@@ -1,0 +1,24 @@
+{
+  "name": "i18n-next",
+  "version": "0.0.1",
+  "description": "Easier way to make next i18n json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-mark/i18n-next.git"
+  },
+  "keywords": [
+    "i18n",
+    "next-language",
+    "generator"
+  ],
+  "author": "me-mark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/me-mark/i18n-next/issues"
+  },
+  "homepage": "https://github.com/me-mark/i18n-next#readme"
+}
