@@ -4,7 +4,8 @@
   "description": "Easier way to make next i18n json file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/me-mark/i18n-next/issues"
   },
-  "homepage": "https://github.com/me-mark/i18n-next#readme"
+  "homepage": "https://github.com/me-mark/i18n-next#readme",
+  "dependencies": {
+    "flat": "^5.0.2",
+    "read-excel-file": "^4.0.7",
+    "stringify-object": "^3.3.0"
+  }
 }
