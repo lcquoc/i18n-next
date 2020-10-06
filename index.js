@@ -3,12 +3,12 @@ const fs = require('fs');
 const stringifyObject = require('stringify-object');
 const flatten = require('flat');
 
-const en = fs.readFileSync('./en.json', 'utf-8');
+const en = fs.readFileSync('./input/en.json', 'utf-8');
 const flattenEN = flatten(JSON.parse(en));
 const keywords = Object.keys(flattenEN);
 const englishValues = Object.values(flattenEN)
 
-readXlsxFile('./en-next.xlsx').then(data => {
+readXlsxFile('./input/languages.xlsx').then(data => {
   const next = {};
   for (let i = 0; i < keywords.length; i++) {
     for (let j = 0; j < englishValues.length; j++) {
@@ -36,5 +36,5 @@ readXlsxFile('./en-next.xlsx').then(data => {
       singleQuotes: false
     })
 
-  fs.writeFile('next.json', formattedStringTranslate, 'utf8', () => { });
+  fs.writeFile('./output/next.json', formattedStringTranslate, 'utf8', () => { });
 })
