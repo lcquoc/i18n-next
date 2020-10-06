@@ -11,7 +11,7 @@
 - You add line by line of new language.
 
 **Better way**
-- Install my package
+- Install **i18n-next**
 - Input your 2 files into **input** folder: excel file (containing languages) and en.json file
 - launch 'npm start'
 - A new language file will be created in **output** folder
